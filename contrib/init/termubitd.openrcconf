@@ -1,0 +1,33 @@
+# /etc/conf.d/termubitd: config file for /etc/init.d/termubitd
+
+# Config file location
+#TRBCOIND_CONFIGFILE="/etc/termubit/termubit.conf"
+
+# What directory to write pidfile to?  (created and owned by $TRBCOIND_USER)
+#TRBCOIND_PIDDIR="/var/run/termubitd"
+
+# What filename to give the pidfile
+#TRBCOIND_PIDFILE="${TRBCOIND_PIDDIR}/termubitd.pid"
+
+# Where to write termubitd data (be mindful that the blockchain is large)
+#TRBCOIND_DATADIR="/var/lib/termubitd"
+
+# User and group to own termubitd process
+#TRBCOIND_USER="termubit"
+#TRBCOIND_GROUP="termubit"
+
+# Path to termubitd executable
+#TRBCOIND_BIN="/usr/bin/termubitd"
+
+# Nice value to run termubitd under
+#TRBCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+TRBCOIND_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for termubitd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+TRBCOIND_SIGTERM_TIMEOUT=60
