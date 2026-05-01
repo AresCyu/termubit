@@ -34,3 +34,8 @@ The core parameters of the Termubit network are hardcoded to ensure a predictabl
 Before building, ensure your system has the necessary libraries installed:
 ```bash
 sudo apt-get update && sudo apt-get install -y build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libdb5.3++-dev libdb5.3-dev
+
+### 2. Unified Clone and Build Process
+Run the following combined command to download the source code and compile the Termubit binaries in one go:
+```bash
+git clone [https://github.com/TermubitCore/termubit.git](https://github.com/TermubitCore/termubit.git) && cd termubit && ./autogen.sh && ./configure --without-gui --disable-tests && make -j$(nproc)
