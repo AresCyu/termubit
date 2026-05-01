@@ -1,4 +1,6 @@
 // Copyright (c) 2014-2015 The Bitcoin Core developers
+// Copyright (c) 2026 The Termubit Core developers
+// Copyright (c) 2026-2028 Aldianokto
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
