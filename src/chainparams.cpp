@@ -122,7 +122,7 @@ public:
         consensus.fAllowLegacyBlocks = true;
         consensus.nHeightEffective = 0;
 
-        // Blocks 1420 - 4233 are Digishield without AuxPoW
+        // Blocks 1420 - 2233 are Digishield without AuxPoW
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 1420;
         digishieldConsensus.fSimplifiedRewards = true;
