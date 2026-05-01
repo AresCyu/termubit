@@ -130,7 +130,7 @@ public:
         digishieldConsensus.nPowTargetTimespan = 60; // post-digishield: 1 minute
         digishieldConsensus.nCoinbaseMaturity = 240;
 
-        // Blocks 22334+ are AuxPoW
+        // Blocks 4233+ are AuxPoW
         auxpowConsensus = digishieldConsensus;
         auxpowConsensus.nHeightEffective = 4233;
         auxpowConsensus.fAllowLegacyBlocks = false;
