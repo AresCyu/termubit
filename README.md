@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/termubit/termubit/master/share/pixmaps/termubit256.svg" alt="Termubit" width="256"/>
+<img src="https://raw.githubusercontent.com/TermubitCore/termubit/refs/heads/main/1E0F6693-23A8-4A40-B850-BEF49E5DD294.png" alt="Termubit" width="256"/>
 <br/><br/>
 Termubit Core [TRB, Ð]  
 </h1>
