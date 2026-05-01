@@ -127,10 +127,10 @@ bool CheckAuxPowProofOfWork(const CBlockHeader& block, const Consensus::Params& 
 
 CAmount GetTermubitBlockSubsidy(int nHeight, const Consensus::Params& consensusParams, uint256 prevHash)
 {
-    // Reward: 670 TRB per block
-    CAmount nSubsidy = 670 * COIN;
+    // Reward: 67 TRB per block
+    CAmount nSubsidy = 67 * COIN;
 
-    // halving every 210.000 per block
+    // halving every 210.000.0 per block
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
 
     // Maximum halving until the prize runs out (0)
