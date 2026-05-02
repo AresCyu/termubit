@@ -8,6 +8,10 @@
  * Server/client environment: argument handling, config file parsing,
  * logging, thread wrappers, startup time
  */
+#ifndef _GLIBCXX_USE_C99
+#define _GLIBCXX_USE_C99 1
+#endif
+
 #ifndef BITCOIN_UTIL_H
 #define BITCOIN_UTIL_H
 
