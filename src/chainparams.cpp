@@ -248,7 +248,7 @@ public:
         consensus.defaultAssumeValid = uint256S("0x000032dc206f4fabbe1a534b787f6ba099233b96f705dca8491e62e1f4632046");
 
         // AuxPoW parameters
-        consensus.nAuxpowChainId = 0x0024; // 98 - Josh Wise!
+        consensus.nAuxpowChainId = 0x0024; // 36
         consensus.fStrictChainId = false;
         consensus.nHeightEffective = 0;
         consensus.fAllowLegacyBlocks = true;
@@ -256,7 +256,7 @@ public:
         // Blocks 21000 - 32390 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 21000;
-        digishieldConsensus.nPowTargetTimespan = 5 * 60; // post-digishield: 1 minute
+        digishieldConsensus.nPowTargetTimespan = 5 * 60; // post-digishield: 5 minute
         digishieldConsensus.fDigishieldDifficultyCalculation = true;
         digishieldConsensus.fSimplifiedRewards = true;
         digishieldConsensus.fPowAllowMinDifficultyBlocks = false;
