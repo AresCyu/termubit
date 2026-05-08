@@ -1,16 +1,15 @@
-# Contributing to termubit Core
+# Contributing to Termubit Core
 
-termubit Core is open source software, and we would welcome contributions
+Termubit Core is open source software, and we would welcome contributions
 which improve the state of the software. For those wanting to discuss changes,
 or look for work that needs doing, please see:
 
 * [Help requests](https://github.com/termubit/termubit/labels/help%20wanted)
-* [Projects](https://github.com/termubit/termubit/projects)
-* [termubitdev on reddit](https://www.reddit.com/r/termubitdev/)
+* [Projects](https://github.com/TermubitCore/termubit)
 
 ## Branch Strategy
 
-termubit Core's default branch is intentionally a stable release, so that anyone
+Termubit Core's default branch is intentionally a stable release, so that anyone
 downloading the code and compiling it gets a stable release. Active development
 occurs on the `master` branch. When raising PRs, please raise them against
 `master`.
