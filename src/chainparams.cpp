@@ -253,7 +253,7 @@ public:
         consensus.nHeightEffective = 0;
         consensus.fAllowLegacyBlocks = true;
 
-        // Blocks 145000 - 157499 are Digishield without minimum difficulty on all blocks
+        // Blocks 21000 - 32390 are Digishield without minimum difficulty on all blocks
         digishieldConsensus = consensus;
         digishieldConsensus.nHeightEffective = 21000;
         digishieldConsensus.nPowTargetTimespan = 5 * 60; // post-digishield: 1 minute
@@ -262,13 +262,13 @@ public:
         digishieldConsensus.fPowAllowMinDifficultyBlocks = false;
         digishieldConsensus.nCoinbaseMaturity = 240;
 
-        // Blocks 157500 - 158099 are Digishield with minimum difficulty on all blocks
+        // Blocks 32390 - 34499 are Digishield with minimum difficulty on all blocks
         minDifficultyConsensus = digishieldConsensus;
         minDifficultyConsensus.nHeightEffective = 32390;
         minDifficultyConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
         minDifficultyConsensus.fPowAllowMinDifficultyBlocks = true;
 
-        // Enable AuxPoW at 158100
+        // Enable AuxPoW at 34500
         auxpowConsensus = minDifficultyConsensus;
         auxpowConsensus.nHeightEffective = 34500;
         auxpowConsensus.fPowAllowDigishieldMinDifficultyBlocks = true;
