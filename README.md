@@ -69,3 +69,6 @@ make
 sudo make install
 
 To start the Termubit node and begin synchronizing with the network:
+
+```bash
+termubitd -daemon
