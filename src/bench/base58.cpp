@@ -44,7 +44,7 @@ static void Base58CheckEncode(benchmark::State& state)
 
 static void Base58Decode(benchmark::State& state)
 {
-    const char* addr = "1DLsAG32LdjH6L1xmKqNFiZR8hVTRsY8r8";
+    const char* addr = "1NmzensgR9QiLXYyCKpQSytDNf7uxH7kio";
     std::vector<unsigned char> vch;
     while (state.KeepRunning()) {
         DecodeBase58(addr, vch);
