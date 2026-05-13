@@ -67,3 +67,5 @@ To compile Termubit Core, ensure all dependencies are met (libboost, libevent, b
 ./configure
 make
 sudo make install
+
+To start the Termubit node and begin synchronizing with the network:
