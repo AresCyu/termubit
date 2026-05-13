@@ -19,7 +19,7 @@
 
 ## What is Termubit?
 
-**Termubit (TRB)** is an innovative, decentralized cryptocurrency designed to function as a primary medium of exchange. Developed as a fork of the proven Dogecoin/Litecoin architecture, Termubit provides a secure, transparent, and immutable ledger for global peer-to-peer transactions.
+**Termubit (TRB)** is an innovative, decentralized cryptocurrency designed to function as a primary medium of exchange. Termubit provides a secure, transparent, and immutable ledger for global peer-to-peer transactions.
 
 The mission of Termubit is to provide a functional alternative to traditional currencies by offering a scalable payment infrastructure that is not controlled by any central authority.
 
@@ -48,13 +48,13 @@ The mission of Termubit is to provide a functional alternative to traditional cu
 Termubit operates on a distributed network of nodes. Every node maintains a full copy of the blockchain, ensuring that the history of all transactions is transparent and verifiable by anyone, anywhere.
 
 ### 2. Transaction Processing & Settlement
-Unlike slower legacy systems, Termubit is engineered for speed. With a **1-minute block time**, transactions are confirmed and settled across the network rapidly. This makes it a viable tool for real-world merchant payments and rapid digital transfers.
+Unlike slower legacy systems, Termubit is engineered for speed. With a **5 minute block time**, transactions are confirmed and settled across the network rapidly. This makes it a viable tool for real-world merchant payments and rapid digital transfers.
 
 ### 3. Mining & Network Security
 The network is secured via the **Scrypt Algorithm**. Miners provide computational power to validate transactions and secure the blockchain against double-spending attacks. In exchange for this work, miners receive a block reward, ensuring a fair and decentralized distribution of the currency.
 
 ### 4. Difficulty Management
-To maintain the stability of the 60-second block interval, Termubit utilizes **DigiShield**. This technology allows the network to adjust mining difficulty in real-time after every block, protecting the network from hashrate fluctuations and ensuring consistent payment processing times.
+To maintain the stability of the 5 Minutes block interval, Termubit utilizes **DigiShield**. This technology allows the network to adjust mining difficulty in real-time after every block, protecting the network from hashrate fluctuations and ensuring consistent payment processing times.
 
 ## Getting Started
 
