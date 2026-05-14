@@ -5,7 +5,7 @@
 <h1 align="center">Termubit Core [TRB]</h1>
 
 <p align="center">
-  <strong>Payment Protocol and Decentralized Financial Network.</strong><br>
+  <strong>Payment Protocol And Decentralized Financial Network.</strong><br>
   Open Source | High-Speed Settlement | Permissionless Infrastructure
 </p>
 
