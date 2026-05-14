@@ -44,31 +44,18 @@ The mission of Termubit is to provide a functional alternative to traditional cu
 
 ## How It Works
 
-### 1. Peer-to-Peer Network
+### Peer-to-Peer Network
 Termubit operates on a distributed network of nodes. Every node maintains a full copy of the blockchain, ensuring that the history of all transactions is transparent and verifiable by anyone, anywhere.
 
-### 2. Transaction Processing & Settlement
+### Transaction Processing & Settlement
 Unlike slower legacy systems, Termubit is engineered for speed. With a **5 minute block time**, transactions are confirmed and settled across the network rapidly. This makes it a viable tool for real-world merchant payments and rapid digital transfers.
 
-### 3. Mining & Network Security
+### Mining & Network Security
 The network is secured via the **Scrypt Algorithm**. Miners provide computational power to validate transactions and secure the blockchain against double-spending attacks. In exchange for this work, miners receive a block reward, ensuring a fair and decentralized distribution of the currency.
 
-### 4. Difficulty Management
+### Difficulty Management
 To maintain the stability of the 5 Minutes block interval, Termubit utilizes **DigiShield**. This technology allows the network to adjust mining difficulty in real-time after every block, protecting the network from hashrate fluctuations and ensuring consistent payment processing times.
-
-## Getting Started
 
 ### Building from Source (Linux/macOS)
 
-To compile Termubit Core, ensure all dependencies are met (libboost, libevent, berkeleydb, etc.), then execute the following:
-
-```bash
-./autogen.sh
-./configure
-make
-sudo make install
-
-## To start the Termubit node and begin synchronizing with the network:
-
-```bash
-termubitd -daemon
+To compile Termubit Core, ensure all dependencies are met (libboost, libevent, berkeleydb, etc.),
