@@ -42,7 +42,7 @@ The mission of Termubit is to provide a functional alternative to traditional cu
 | **Difficulty Retarget** | DigiShield |
 | **Transaction Fees** | Minimal / Dynamic |
 
-## How It Works
+## How it Works
 
 ### Peer-to-Peer Network
 Termubit operates on a distributed network of nodes. Every node maintains a full copy of the blockchain, ensuring that the history of all transactions is transparent and verifiable by anyone, anywhere.
